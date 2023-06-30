@@ -1,6 +1,9 @@
+import java.util.Scanner;
 public class Pattern {
     public static void main(String[] args) {
-        int n = 5; 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter an integer: ");
+        int n = scanner.nextInt();
         int numSpaces = n - 1; // Initialize the number of spaces in each row
         int numAlphabets = 1; // Initialize the number of alphabets in each row
 
